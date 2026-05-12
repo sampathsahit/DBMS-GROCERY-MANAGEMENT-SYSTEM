@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<style>
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Register</h2>
+
+    <form action="register.php" method="POST">
+        <input type="text" name="name" placeholder="Enter Name" required>
+        <input type="email" name="email" placeholder="Enter Email" required>
+        <input type="password" name="password" placeholder="Enter Password" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have account? <a href="index.html">Login</a></p>
+</div>
+
+</body>
+</html>

@@ -95,9 +95,3 @@ It also provides Admin page which allows us to moniter login details , add items
 The Grocery Management System is useful for managing grocery shop activities digitally.  
 It helps improve productivity and simplifies inventory management.
 
----
-
-## Author
-
-Developed by: Your Name  
-Course: B.Tech CSE
